@@ -5,17 +5,26 @@ This project models the problem of finding an optimal delivery route for multipl
 
 ## The problem specifics:
 1- Each parcel has a pickup location and a destination location.
+
 2- Each truck has at least one parcel at the beginning.
+
 3- There are locations that have buildings and where trucks can't pass by.
+
 4- It is allowed to pass by the same location more than one time.
+
 5- The cost of moving from one location to another is 1 + the number of parcels that are being transferred in the moment.
 
 ## The allowed processes:
 1- Moving East.
+
 2- Moving West.
+
 3- Moving Wouth.
+
 4- Moving North.
+
 5- Receiving a parcel.
+
 6- Delivering a parcel.
 
 ## The used intelligent search algorithms:
